@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.css">
+    <script src="/formlogin/login.js"></script>
+    <title>Đăng kí</title>
+</head>
+
+<body>
+    <div class="cards-login">
+        <div class="card-form">
+            <div class="card-login">
+                <div class="card-login-title">
+                    <p class="login-title">Register</p>
+                </div>
+                <div class="row card-login-enter">
+                    <input class="login-userpass userpass-top" type="text" placeholder="Số điện thoại" maxlength="15">
+                </div>
+                <div class="row card-login-enter">
+                    <input id="myPass" class="login-userpass" type="password" placeholder="Mật khẩu" maxlength="16">
+                    <div class="hidden-pass">
+                        <i id="switch-icon" onclick="showPass()" class="fas fa-eye-slash"></i>
+
+                    </div>
+                </div>
+                <div class="row card-login-enter">
+                    <input id="myPass" class="login-userpass" type="password" placeholder="Nhập lại mật khẩu" maxlength="16">
+                    <div class="hidden-pass">
+                        <i id="switch-icon" onclick="showPass()" class="fas fa-eye-slash"></i>
+
+                    </div>
+                </div>
+                <div class="row login-submit">
+                    <button class="login-signin">Đăng kí</button>
+                </div>
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line-or">Hoặc</div>
+                    <div class="line"></div>
+                </div>
+                <div class="socials">
+                    <div class="row social">
+                        <div class="card-social fb">
+                            <i class="fab fa-facebook"></i>
+                            <div class="name-fb">Facebook</div>
+                        </div>
+                        <div class="card-social gg">
+                            <i class="fab fa-google"></i>
+                            <div class="name-gg">Google</div>
+                        </div>
+                        <div class="card-social insta">
+                            <i class="fab fa-instagram-square"></i>
+                            <div class="name-insta">Instagram</div>
+                        </div>
+                    </div>
+                </div>
+                <!--socials mobile-->
+                <div class="mobile-socials">
+                    <div class="row1 mobile-social">
+                        <div class="card-mobile-social fb">
+                            <i class="fab fa-facebook"></i>
+                            <div class="name-mobile-fb">Kết nối với Facebook</div>
+                        </div>
+                        <div class="card-mobile-social gg">
+                            <i class="fab fa-google"></i>
+                            <div class="name-mobile-gg">Kết nối với Google</div>
+                        </div>
+                        <div class="card-mobile-social insta">
+                            <i class="fab fa-instagram-square"></i>
+                            <div class="name-mobile-insta">Kết nối với Instagram</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="register-member">
+                    <p class="member">Bạn đã có tài khoản?<a class="register" href="/formlogin/login.html">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
